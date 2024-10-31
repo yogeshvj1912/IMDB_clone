@@ -1,7 +1,7 @@
 // src/components/MovieList.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchTopRatedMovies, searchMovies,fetchRecentMovie } from '../api';
+import { fetchTopRatedMovies, searchMovies } from '../api';
 
 function MovieList() {
     const [movies, setMovies] = useState([]);
